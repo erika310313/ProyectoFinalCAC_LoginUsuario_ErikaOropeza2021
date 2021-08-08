@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/08/2021, 03:25:42 PM
+    Author     : David
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #35b5ba;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #35b5ba, #f1abc9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #35b5ba, #f1abc9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: transparent;
+    color: #393939;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu{
+    padding: 20px;
+    text-align: center;
+    border-style: none solid solid solid;
+    border-radius: 0px 0px 50px 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    background: rgba(252,236,252,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 26%, rgba(129,54,137,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(252,236,252,1)), color-stop(26%, rgba(253,137,215,1)), color-stop(100%, rgba(129,54,137,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 26%, rgba(129,54,137,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 26%, rgba(129,54,137,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 26%, rgba(129,54,137,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 26%, rgba(129,54,137,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#813689', GradientType=1 );
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu ul li{
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-style: solid;
+    margin-right: 30px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px, 2px 2px white;
+    transition: all .5s;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu ul li:hover{
+    transition: all .5s;
+    box-shadow: 0px, 0px, 10px 6px white;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translate(0px, -5px);
+    font-family: 'Noto Sans JP', sans-serif;
+}
